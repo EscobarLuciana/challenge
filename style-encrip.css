@@ -1,0 +1,187 @@
+*{
+  background-color: #DAD3F1;
+  font-family: 'Quicksan', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  overflow-y: hidden; 
+}
+
+.logo{
+  padding-top: 10px;
+  margin-left: 43px;
+  width: 110px;
+}
+
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 57px;
+}
+
+.github{
+  width: 33px;
+  position: absolute;
+  right: 182px;
+  top: 35px;
+  transition: transform 0.3s;
+}
+
+.github:hover{
+  transform: scale(1.1)
+}
+
+.linkedin{
+  width: 34px;
+  position: absolute;
+  right: 122px;
+  top: 35px;
+  transition: transform 0.3s;
+}
+
+.linkedin:hover{
+  transform: scale(1.1)
+}
+
+.text-area{
+  font-size: 25px;
+  border: none;
+  color: #000000;
+  margin-top: 50px;
+  text-transform: lowercase;
+  position: sticky;
+  height: 270px;
+  width: 693px;
+  resize: none;
+  padding: 40px;
+  padding-right: 20px;
+  
+}
+
+::placeholder{ color:rgb(0, 0, 0);}
+.text-area:focus{
+  outline: none;
+}
+
+.mensaje{
+  background-image: url("..//challenge/Imagenes/Challenge1.png");
+  background-color: #BDADEE;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0d0d0e;
+  margin-left: 47px;
+  margin-top: 20px;
+  padding-top: 0px;
+  line-height: 89px;
+  padding-left: 20px;
+  position: sticky;
+  height: 525px;
+  width: 290px;
+  resize: none;
+  font-size: 24px;
+  
+
+}
+
+.mensaje:focus{
+  outline: none;
+}
+
+.botones{
+  display: flex;
+  margin-top: 57px;
+}
+
+.botones button{
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  width: 240px;
+}
+
+.boton-encriptar{
+  background-color: #A78BFE;
+  border: 3px solid white;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 63px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 200px;
+  transition: transform 0.3s;
+  
+}
+
+.boton-encriptar:hover{
+  transform: scale(1.1);
+}
+
+
+.boton-desencriptar{
+  background: #A78BFE;
+  border: 3px solid white;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 63px;
+  margin-left: 66px;
+  width: 270px;
+  font-size: 18px;
+  margin-top: 33px;
+  transition: transform 0.3s;
+}
+
+.boton-desencriptar:hover{
+  transform: scale(1.1);
+}
+
+.limpiar-texto{
+  background: white;
+  border: 3px solid #A78BFE;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 63px;
+  margin-left: 90px;
+  width: 200px;
+  transition: transform 0.3s;
+ 
+}
+
+.limpiar-texto:hover{
+  transform: scale(1.1);
+}
+
+.copiar{
+  background: white;
+  border: 3px solid #A78BFE; 
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 63px;
+  margin-left: 67px;
+  margin-top: -78px;
+  position: absolute;
+  width: 270px;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.copiar:hover{
+  transform: scale(1.1)
+}
+
+.información{
+  color: black;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  position: absolute;
+  top: 19 px;
+}
+
+

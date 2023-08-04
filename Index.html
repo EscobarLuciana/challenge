@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="../challenge/style-encrip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="../challenge/Imagenes/Logo.png" alt="Logo de Alura">
+        <a href="https://github.com/EscobarLuciana">
+            <img class="github" src="../challenge/Imagenes/github.png" alt="Logo de github">
+        </a>
+        <a href="https://www.linkedin.com/in/lucianaescobartalaverano/">
+            <img class="linkedin" src="../challenge/Imagenes/linkedin.png" alt="Logo de Linkedin">
+        </a> 
+        
+    </header>
+    <main>
+        <section>
+            <textarea  class="text-area" cols="30" rows="10" placeholder=" Ingrese el texto aquí "></textarea>
+            <div>
+                <h6 class="información">Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class= "limpiar-texto" onclick="limpiarPagina()">Limpiar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="../challenge/script.js" alt="Matriz Codigo"></script>
+</body>
+</html>
